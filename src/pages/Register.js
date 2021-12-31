@@ -15,7 +15,7 @@ const Register = () => {
     const handleSubmit = async () => {
         const displayName = firstName + " " + lastName
         try{
-            // Bu fonksiyon firebase'e ait 3 parametre alır databasenin konumu(auth) email,password  yenikullanıcı oluşturur
+            // Bu fonksiyon firebase'e ait 3 parametre alır (auth)kendi projemle bagladım, email,password  yenikullanıcı oluşturur
             let user = await createUserWithEmailAndPassword(auth, email, password)
             console.log(user)
             

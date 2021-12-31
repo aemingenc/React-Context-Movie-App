@@ -11,6 +11,7 @@ const firebaseConfig = {
     appId: "1:143938452985:web:11544e173542cf2b1c1128"
 };
 
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);// bunun ile uygulamayı açtım
 
-export const auth = getAuth(app);
+export const auth = getAuth(app);//react projemle firebaseyi bagladım getauthla çeşitli fonk vb 
+//ulaşabileceğim firebaseye ait olanlara. auth olarak kullanmak için başka dosyalarda export ettim
