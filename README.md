@@ -8,7 +8,7 @@ Project aims to create a Movie App.
 
 ## Project Skeleton
 
-
+```
 Movie App (folder)
 |
 |----readme.md        
@@ -36,7 +36,7 @@ SOLUTION
 ├── package.json
 ├── .env
 └── yarn.lock
-
+```
 
 
 
