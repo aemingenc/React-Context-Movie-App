@@ -38,7 +38,7 @@ SOLUTION
 └── yarn.lock
 ```
 ## How To Use;
-$git clone https://github.com/DMTBusra/movie-react-firebase.git
+$git clone https://github.com/aemingenc/React-Movie-App
 
 
 # Install Dependencies;
