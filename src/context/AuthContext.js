@@ -1,4 +1,5 @@
 import {createContext, useEffect, useState} from 'react';
+//sen bu sayfadan gitsen bile ben hali hazırda giriş yapmış kullanıcıyı bulacagım diyor(onAuthStateChanged)
 import { onAuthStateChanged } from 'firebase/auth';
 import {auth} from '../auth/firebase-config'
 

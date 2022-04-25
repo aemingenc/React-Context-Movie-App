@@ -18,7 +18,7 @@ const Register = () => {
             // Bu fonksiyon firebase'e ait 3 parametre alır (auth)kendi projemle bagladım, email,password  yenikullanıcı oluşturur
             let user = await createUserWithEmailAndPassword(auth, email, password)
             console.log(user)
-            
+            //authun içindeki currentUserın displaynamesinideğiştirdik bu fonk ile
             await updateProfile(auth.currentUser, {displayName : displayName})
             console.log(auth.currentUser);
             navigate('/')
