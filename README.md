@@ -38,7 +38,7 @@ SOLUTION
 └── yarn.lock
 ```
 ## Site View
-![Project 008 Snapshot](movie-app.gif)
+!(movie-app.gif)
 
 ## How To Use;
 $git clone https://github.com/aemingenc/React-Movie-App
